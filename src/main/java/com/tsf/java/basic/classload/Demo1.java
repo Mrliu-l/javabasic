@@ -20,6 +20,8 @@ public class Demo1 {
      */
     private static final int c = 1;
 
+    String test = new String("carString");
+
     //在反编译文件中查看
     public static void main(String[] args) {
         System.out.println("静态变量会在准备阶段赋值为：" + b);
